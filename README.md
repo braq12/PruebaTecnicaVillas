@@ -4,6 +4,7 @@ Este repositorio tiene como objetivo dar solución ala prueba técnica enviada p
 
 #Instrucciones de ejecucion 
 Version java : 8
+El proyecto se encuentra en la rama Master
 
  Metodo 1 Maven : 
  
