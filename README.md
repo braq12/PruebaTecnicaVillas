@@ -23,5 +23,27 @@ Version java : 8
  Para ejecutar las demas pruebas se adjunta collecion psotman.
  
  #Casos de Prueba
+ 1. Ejecucion servicio get http://localhost:8080/harrypotter/Spells?Type=Conjuration&light=Blue:
+ ![image](https://user-images.githubusercontent.com/36553982/210019351-9a4e9179-2dd4-4bd9-a443-50fda478e72b.png)
+
+ 2. Ejecucion servicio get 
+ ![image](https://user-images.githubusercontent.com/36553982/210019388-771dfcab-8a44-4dfc-bfd3-1431d294199e.png)
+
+ 5. Ejecucion servicio post
+ ![image](https://user-images.githubusercontent.com/36553982/210019452-d486a180-69c1-4bd0-8562-61e0f83502ba.png)
+
+ 7. Ejecucion servicio post valdiacion not null
+ ![image](https://user-images.githubusercontent.com/36553982/210019422-5cfb8e3c-d5ca-4297-b364-4092587345d7.png)
+
+ 9. Ejecucion servicio post validacion campo canBeVerbal
+ ![image](https://user-images.githubusercontent.com/36553982/210019472-d6312bfa-3406-4f25-8180-922eabd82494.png)
+
+ 11. Ejecucion servicio post valdiacion campo name
+ ![image](https://user-images.githubusercontent.com/36553982/210019520-51816a98-2c20-47bd-866f-27ea58449240.png)
+
+ 13. Ejecucion servicio psot validacion campo light
+ ![image](https://user-images.githubusercontent.com/36553982/210019551-72561856-c331-4d27-99c4-d992e8e7f9dd.png)
+
+
  
  
