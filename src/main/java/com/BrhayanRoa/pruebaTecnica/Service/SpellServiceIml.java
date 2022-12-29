@@ -49,7 +49,7 @@ public class SpellServiceIml implements SpellService {
 		List<Spell> Spells = getSpells();
 		
 		boolean ExistName  = Spells.stream().anyMatch(s -> s.getName().equals(spell.getName()));
-		System.out.print(ExistName);
+		
 		if(ExistName==true) {
 			throw new DuplicateNameException("El name : '"+spell.getName()+"' ya existe");
 		}

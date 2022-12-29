@@ -37,7 +37,7 @@ public class RestErrorHandler extends ResponseEntityExceptionHandler {
 		body.put("timestamp", new Date());
 		body.put("status", status.value());
 		body.put("Errores", Errors);
-		System.out.print(ex.toString());
+		
 
 		return handleExceptionInternal(ex, body, new HttpHeaders(), status, request);
 	}

@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "a6840171-2431-424c-9ce8-0d87b6dfe534",
+		"name": "PruebaTecnicaBrhayanRoa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"id\":\"xdddd\",\r\n      \"name\":\"Opening Charm\",\r\n      \"incantation\":\"Aguamenti\",\r\n      \"effect\":\"asdfas\",\r\n      \"canBeVerbal\":true,\r\n      \"type\":\"Conjuration\",\r\n      \"light\":\"Blue\",\r\n      \"creator\":null\r\n   }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/harrypotter/Spells",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"harrypotter",
+						"Spells"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETByTypeLight",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/harrypotter/Spells?Type=Charm&light=Blue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"harrypotter",
+						"Spells"
+					],
+					"query": [
+						{
+							"key": "Type",
+							"value": "Charm"
+						},
+						{
+							"key": "light",
+							"value": "Blue"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/harrypotter/Spells/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"harrypotter",
+						"Spells",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
